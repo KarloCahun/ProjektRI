@@ -3,13 +3,9 @@ This repository contains custom ROS2 packages developed for use with Gazebo simu
 1. Clone the repository and build the workspace:
 
    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/KarloCahun/ProjektRI.git)
-
    cd workspace_folder
- 
    source /opt/ros/<distro>/setup.bash
- 
    colcon build --symlink-install
-
    source install/setup.bash
 
 3. To run the system, all three nodes must be launched in separate terminal windows using the following commands:
