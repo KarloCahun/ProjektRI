@@ -1,0 +1,10 @@
+# Request
+string file_path
+---
+# Result
+bool success
+string message
+---
+# Feedback
+int32 current_goal
+int32 total_goals
